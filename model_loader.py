@@ -14,9 +14,3 @@ def load_model():
     tokenizer = AutoTokenizer.from_pretrained(model_directory)
     model = AutoModel.from_pretrained(model_directory)
     return tokenizer, model
-
-# Example usage
-# Load the model
-tokenizer, model = load_model()
-
-# Now you can use the tokenizer and model as usual
